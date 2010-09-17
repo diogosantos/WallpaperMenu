@@ -1,0 +1,151 @@
+// !$*UTF8*$!
+{
+	172754BD107597F200D0347B /* Unit Tests */ = {
+		activeExec = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D96384201242B8E400C814B4 /* WallpaperMenu */;
+		activeTarget = 8D1107260486CEB800E47090 /* WallpaperMenu */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* WallpaperMenu */,
+		);
+		codeSenseManager = D96384331242B8E900C814B4 /* Code sense */;
+		executables = (
+			D96384201242B8E400C814B4 /* WallpaperMenu */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					614,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 306381530;
+			PBXWorkspaceStateSaveDate = 306381530;
+		};
+		perUserProjectItems = {
+			D963853D1243175500C814B4 /* PlistBookmark */ = D963853D1243175500C814B4 /* PlistBookmark */;
+			D963853E1243175500C814B4 /* PBXTextBookmark */ = D963853E1243175500C814B4 /* PBXTextBookmark */;
+			D963853F1243175500C814B4 /* PBXTextBookmark */ = D963853F1243175500C814B4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = D96384321242B8E900C814B4 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4D1A51A110A4FF5D0046A98A /* Compile */ = {
+		activeExec = 0;
+	};
+	4D1A51A510A4FF640046A98A /* Embed */ = {
+		activeExec = 0;
+	};
+	8D1107260486CEB800E47090 /* WallpaperMenu */ = {
+		activeExec = 0;
+		executables = (
+			D96384201242B8E400C814B4 /* WallpaperMenu */,
+		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 64}, {1231, 814}}";
+		};
+	};
+	D96384201242B8E400C814B4 /* WallpaperMenu */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = WallpaperMenu;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D96384321242B8E900C814B4 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D96384331242B8E900C814B4 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D96384C51243030800C814B4 /* WallpaperMenuController.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {792, 381}}";
+			sepNavSelRange = "{255, 0}";
+			sepNavVisRange = "{0, 262}";
+		};
+	};
+	D963853D1243175500C814B4 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/diogo/Developer/Projects/Personal/WallpaperMenu/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	D963853E1243175500C814B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D96384C51243030800C814B4 /* WallpaperMenuController.rb */;
+		name = "WallpaperMenuController.rb: 7";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 280;
+		vrLoc = 0;
+	};
+	D963853F1243175500C814B4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D96384C51243030800C814B4 /* WallpaperMenuController.rb */;
+		name = "WallpaperMenuController.rb: 10";
+		rLen = 0;
+		rLoc = 255;
+		rType = 0;
+		vrLen = 262;
+		vrLoc = 0;
+	};
+}
