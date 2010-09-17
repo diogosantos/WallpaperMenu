@@ -1,204 +1,0 @@
-TWallpaperMenu
-v7
-r0
-t306386612.812744
-cCheck dependencies
-cProcessInfoPlistFile /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Info.plist Info.plist
-cCopyStringsFile /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCpResource build/Debug/WallpaperMenu.app/Contents/Resources/rb_main.rb rb_main.rb
-cCompileXIB /Users/diogo/Developer/Projects/Personal/WallpaperMenu/English.lproj/MainMenu.xib
-cCpResource build/Debug/WallpaperMenu.app/Contents/Resources/WallpaperMenuController.rb WallpaperMenuController.rb
-cCompileC build/WallpaperMenu.build/Debug/WallpaperMenu.build/Objects-normal/x86_64/main.o /Users/diogo/Developer/Projects/Personal/WallpaperMenu/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/MacOS/WallpaperMenu normal x86_64
-cTouch /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app
-
-N/Developer/SDKs/MacOSX10.5.sdk
-c000000004B7D589B00000000000000EE
-t1266505883
-s238
-
-N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
-c000000004BDB4850000000000000005F
-t1272662096
-s95
-
-N/Library/Frameworks/MacRuby.framework/MacRuby
-c000000004BDF355E0000000001C109E8
-t1272919390
-s29428200
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/English.lproj/InfoPlist.strings
-c000000004C92816400000000000000CA
-t1284669796
-s202
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/English.lproj/MainMenu.xib
-c000000004C92DE9D000000000001C12F
-t1284693661
-s114991
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/Wallpaper.rb
-c000000004C92C8AB00000000000000C0
-t1284688043
-s192
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/WallpaperMenuController.rb
-c000000004C92DF480000000000000106
-t1284693832
-s262
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app
-t1284693812
-s102
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Info.plist
-t1284693052
-s820
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/MacOS/WallpaperMenu
-t1284678304
-s9720
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/PkgInfo
-t1284693052
-s8
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1284678301
-s202
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources/English.lproj/MainMenu.nib
-t1284693670
-s19417
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources/Wallpaper.rb
-t1284687677
-s240
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources/WallpaperMenuController.rb
-t1284693812
-s262
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources/rb_main.rb
-t1284678301
-s616
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/WallpaperMenu.build/Debug/WallpaperMenu.build/Objects-normal/x86_64/WallpaperMenu.LinkFileList
-c000000004C92A29C0000000000000088
-t1284678300
-s136
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/WallpaperMenu.build/Debug/WallpaperMenu.build/Objects-normal/x86_64/main.o
-t1284678303
-s7488
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/main.m
-c000000004C92816400000000000000F8
-t1284669796
-s248
-i<MacRuby/MacRuby.h>
-
-N/Users/diogo/Developer/Projects/Personal/WallpaperMenu/rb_main.rb
-c000000004C9281640000000000000268
-t1284669796
-s616
-
-NInfo.plist
-c000000004C92DC38000000000000036B
-t1284693048
-s875
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies306386612#306386612#0(0"0(0#1#0"4300911832#0"0#
-
-CCompileC build/WallpaperMenu.build/Debug/WallpaperMenu.build/Objects-normal/x86_64/main.o /Users/diogo/Developer/Projects/Personal/WallpaperMenu/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s306371102.093066
-e306371103.908376
-r1
-xCompileC
-xbuild/WallpaperMenu.build/Debug/WallpaperMenu.build/Objects-normal/x86_64/main.o
-x/Users/diogo/Developer/Projects/Personal/WallpaperMenu/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/diogo/Developer/Projects/Personal/WallpaperMenu/main.m306371102#306371103#0(0"0(0#0#61"/Users/diogo/Developer/Projects/Personal/WallpaperMenu/main.m4300911832#1171"    cd /Users/diogo/Developer/Projects/Personal/WallpaperMenu    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/WallpaperMenu.build/Debug/WallpaperMenu.build/WallpaperMenu.hmap -F/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug -F/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug -I/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/include -I/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/WallpaperMenu.build/Debug/WallpaperMenu.build/DerivedSources/x86_64 -I/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/WallpaperMenu.build/Debug/WallpaperMenu.build/DerivedSources -c /Users/diogo/Developer/Projects/Personal/WallpaperMenu/main.m -o /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/WallpaperMenu.build/Debug/WallpaperMenu.build/Objects-normal/x86_64/main.o0#
-
-CCompileXIB /Users/diogo/Developer/Projects/Personal/WallpaperMenu/English.lproj/MainMenu.xib
-s306386469.861795
-e306386470.079362
-r1
-xCompileXIB
-x/Users/diogo/Developer/Projects/Personal/WallpaperMenu/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib306386469#306386470#0(0"0(0#0#81"/Users/diogo/Developer/Projects/Personal/WallpaperMenu/English.lproj/MainMenu.xib4300911832#381"    cd /Users/diogo/Developer/Projects/Personal/WallpaperMenu    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources/English.lproj/MainMenu.nib /Users/diogo/Developer/Projects/Personal/WallpaperMenu/English.lproj/MainMenu.xib0#
-
-CCopyStringsFile /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s306371101.470581
-e306371101.808320
-r1
-xCopyStringsFile
-x/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-o/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings:125: warning: Insecure world writable dir /usr/local/git in PATH, mode 040777
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings306371101#306371101#0(167"/Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings:125: warning: Insecure world writable dir /usr/local/git in PATH, mode 0407770(0#0#86"/Users/diogo/Developer/Projects/Personal/WallpaperMenu/English.lproj/InfoPlist.strings4300911832#404"    cd /Users/diogo/Developer/Projects/Personal/WallpaperMenu    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources/English.lproj0#
-
-CCpResource build/Debug/WallpaperMenu.app/Contents/Resources/Wallpaper.rb Wallpaper.rb
-s306380477.278109
-e306380477.661564
-r1
-xCpResource
-xbuild/Debug/WallpaperMenu.app/Contents/Resources/Wallpaper.rb
-xWallpaper.rb
-lSLF07#2@17"Copy Wallpaper.rb306380477#306380477#0(0"0(0#0#67"/Users/diogo/Developer/Projects/Personal/WallpaperMenu/Wallpaper.rb4300911832#382"    cd /Users/diogo/Developer/Projects/Personal/WallpaperMenu    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/diogo/Developer/Projects/Personal/WallpaperMenu/Wallpaper.rb /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources0#
-
-CCpResource build/Debug/WallpaperMenu.app/Contents/Resources/WallpaperMenuController.rb WallpaperMenuController.rb
-s306386612.796785
-e306386612.807369
-r1
-xCpResource
-xbuild/Debug/WallpaperMenu.app/Contents/Resources/WallpaperMenuController.rb
-xWallpaperMenuController.rb
-lSLF07#2@31"Copy WallpaperMenuController.rb306386612#306386612#0(0"0(0#0#81"/Users/diogo/Developer/Projects/Personal/WallpaperMenu/WallpaperMenuController.rb4300911832#396"    cd /Users/diogo/Developer/Projects/Personal/WallpaperMenu    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/diogo/Developer/Projects/Personal/WallpaperMenu/WallpaperMenuController.rb /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources0#
-
-CCpResource build/Debug/WallpaperMenu.app/Contents/Resources/rb_main.rb rb_main.rb
-s306371101.493657
-e306371101.600509
-r1
-xCpResource
-xbuild/Debug/WallpaperMenu.app/Contents/Resources/rb_main.rb
-xrb_main.rb
-lSLF07#2@15"Copy rb_main.rb306371101#306371101#0(0"0(0#0#65"/Users/diogo/Developer/Projects/Personal/WallpaperMenu/rb_main.rb4300911832#380"    cd /Users/diogo/Developer/Projects/Personal/WallpaperMenu    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/diogo/Developer/Projects/Personal/WallpaperMenu/rb_main.rb /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Resources0#
-
-CLd /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/MacOS/WallpaperMenu normal x86_64
-s306371103.908556
-e306371104.865763
-r1
-xLd
-x/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/MacOS/WallpaperMenu
-xnormal
-xx86_64
-lSLF07#2@118"Link /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/MacOS/WallpaperMenu306371103#306371104#0(0"0(0#0#0"4300911832#740"    cd /Users/diogo/Developer/Projects/Personal/WallpaperMenu    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug -F/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug -F/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug -filelist /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/WallpaperMenu.build/Debug/WallpaperMenu.build/Objects-normal/x86_64/WallpaperMenu.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework MacRuby -o /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/MacOS/WallpaperMenu0#
-
-CProcessInfoPlistFile /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Info.plist Info.plist
-s306385852.064920
-e306385852.074830
-r1
-xProcessInfoPlistFile
-x/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist306385852#306385852#0(0"0(0#0#65"/Users/diogo/Developer/Projects/Personal/WallpaperMenu/Info.plist4300911832#362"    cd /Users/diogo/Developer/Projects/Personal/WallpaperMenu    builtin-infoPlistUtility Info.plist -genpkginfo /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app/Contents/Info.plist0#
-
-CTouch /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app
-s306386612.807636
-e306386612.812704
-r1
-xTouch
-x/Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app
-lSLF07#2@90"Touch /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app306386612#306386612#0(0"0(0#0#0"4300911832#169"    cd /Users/diogo/Developer/Projects/Personal/WallpaperMenu    /usr/bin/touch -c /Users/diogo/Developer/Projects/Personal/WallpaperMenu/build/Debug/WallpaperMenu.app0#
-
