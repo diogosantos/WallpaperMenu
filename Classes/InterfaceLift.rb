@@ -1,6 +1,6 @@
 require 'Client'
 
-class InterfaceLift < Client
+class InterfaceLiftClient < Client
   
   def initialize(delegate)
     super(delegate)

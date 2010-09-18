@@ -49,15 +49,15 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D937966012453E660087CF7E /* Client.rb in Resources */ = {isa = PBXBuildFile; fileRef = D937965812453E660087CF7E /* Client.rb */; };
+		D937966112453E660087CF7E /* Connection.rb in Resources */ = {isa = PBXBuildFile; fileRef = D937965912453E660087CF7E /* Connection.rb */; };
+		D937966212453E660087CF7E /* InterfaceLift.rb in Resources */ = {isa = PBXBuildFile; fileRef = D937965A12453E660087CF7E /* InterfaceLift.rb */; };
+		D937966312453E660087CF7E /* Wallpaper.rb in Resources */ = {isa = PBXBuildFile; fileRef = D937965B12453E660087CF7E /* Wallpaper.rb */; };
+		D937966412453E660087CF7E /* WallpaperMenu.rb in Resources */ = {isa = PBXBuildFile; fileRef = D937965C12453E660087CF7E /* WallpaperMenu.rb */; };
+		D937966512453E660087CF7E /* WallpaperMenuController.rb in Resources */ = {isa = PBXBuildFile; fileRef = D937965D12453E660087CF7E /* WallpaperMenuController.rb */; };
+		D937966612453E660087CF7E /* WallpaperNavigatorView.rb in Resources */ = {isa = PBXBuildFile; fileRef = D937965E12453E660087CF7E /* WallpaperNavigatorView.rb */; };
+		D937966712453E660087CF7E /* WallpaperView.rb in Resources */ = {isa = PBXBuildFile; fileRef = D937965F12453E660087CF7E /* WallpaperView.rb */; };
 		D9AD8FC81244416200A220CA /* wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9AD8FC61244416200A220CA /* wallpaper.jpg */; };
-		D9AD910C1244A1F600A220CA /* Client.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9AD91041244A1F600A220CA /* Client.rb */; };
-		D9AD910D1244A1F600A220CA /* Connection.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9AD91051244A1F600A220CA /* Connection.rb */; };
-		D9AD910E1244A1F600A220CA /* InterfaceLift.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9AD91061244A1F600A220CA /* InterfaceLift.rb */; };
-		D9AD910F1244A1F600A220CA /* Wallpaper.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9AD91071244A1F600A220CA /* Wallpaper.rb */; };
-		D9AD91101244A1F600A220CA /* WallpaperMenu.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9AD91081244A1F600A220CA /* WallpaperMenu.rb */; };
-		D9AD91111244A1F600A220CA /* WallpaperMenuController.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9AD91091244A1F600A220CA /* WallpaperMenuController.rb */; };
-		D9AD91121244A1F600A220CA /* WallpaperRepository.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9AD910A1244A1F600A220CA /* WallpaperRepository.rb */; };
-		D9AD91131244A1F600A220CA /* WallpaperView.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9AD910B1244A1F600A220CA /* WallpaperView.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,15 +86,15 @@
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* WallpaperMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallpaperMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D937965812453E660087CF7E /* Client.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Client.rb; sourceTree = "<group>"; };
+		D937965912453E660087CF7E /* Connection.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Connection.rb; sourceTree = "<group>"; };
+		D937965A12453E660087CF7E /* InterfaceLift.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = InterfaceLift.rb; sourceTree = "<group>"; };
+		D937965B12453E660087CF7E /* Wallpaper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Wallpaper.rb; sourceTree = "<group>"; };
+		D937965C12453E660087CF7E /* WallpaperMenu.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WallpaperMenu.rb; sourceTree = "<group>"; };
+		D937965D12453E660087CF7E /* WallpaperMenuController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WallpaperMenuController.rb; sourceTree = "<group>"; };
+		D937965E12453E660087CF7E /* WallpaperNavigatorView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WallpaperNavigatorView.rb; sourceTree = "<group>"; };
+		D937965F12453E660087CF7E /* WallpaperView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WallpaperView.rb; sourceTree = "<group>"; };
 		D9AD8FC61244416200A220CA /* wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper.jpg; sourceTree = "<group>"; };
-		D9AD91041244A1F600A220CA /* Client.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Client.rb; sourceTree = "<group>"; };
-		D9AD91051244A1F600A220CA /* Connection.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Connection.rb; sourceTree = "<group>"; };
-		D9AD91061244A1F600A220CA /* InterfaceLift.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = InterfaceLift.rb; sourceTree = "<group>"; };
-		D9AD91071244A1F600A220CA /* Wallpaper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Wallpaper.rb; sourceTree = "<group>"; };
-		D9AD91081244A1F600A220CA /* WallpaperMenu.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WallpaperMenu.rb; sourceTree = "<group>"; };
-		D9AD91091244A1F600A220CA /* WallpaperMenuController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WallpaperMenuController.rb; sourceTree = "<group>"; };
-		D9AD910A1244A1F600A220CA /* WallpaperRepository.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WallpaperRepository.rb; sourceTree = "<group>"; };
-		D9AD910B1244A1F600A220CA /* WallpaperView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WallpaperView.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 		29B97314FDCFA39411CA2CEA /* WallpaperMenu */ = {
 			isa = PBXGroup;
 			children = (
-				D9AD90F01244A1A700A220CA /* Classes */,
+				D937965712453E660087CF7E /* Classes */,
 				172754AE1075979200D0347B /* Tests */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -188,19 +188,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9AD90F01244A1A700A220CA /* Classes */ = {
+		D937965712453E660087CF7E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D9AD91041244A1F600A220CA /* Client.rb */,
-				D9AD91051244A1F600A220CA /* Connection.rb */,
-				D9AD91061244A1F600A220CA /* InterfaceLift.rb */,
-				D9AD91071244A1F600A220CA /* Wallpaper.rb */,
-				D9AD91081244A1F600A220CA /* WallpaperMenu.rb */,
-				D9AD91091244A1F600A220CA /* WallpaperMenuController.rb */,
-				D9AD910A1244A1F600A220CA /* WallpaperRepository.rb */,
-				D9AD910B1244A1F600A220CA /* WallpaperView.rb */,
+				D937965812453E660087CF7E /* Client.rb */,
+				D937965912453E660087CF7E /* Connection.rb */,
+				D937965A12453E660087CF7E /* InterfaceLift.rb */,
+				D937965B12453E660087CF7E /* Wallpaper.rb */,
+				D937965C12453E660087CF7E /* WallpaperMenu.rb */,
+				D937965D12453E660087CF7E /* WallpaperMenuController.rb */,
+				D937965E12453E660087CF7E /* WallpaperNavigatorView.rb */,
+				D937965F12453E660087CF7E /* WallpaperView.rb */,
 			);
-			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,14 +254,14 @@
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */,
 				D9AD8FC81244416200A220CA /* wallpaper.jpg in Resources */,
-				D9AD910C1244A1F600A220CA /* Client.rb in Resources */,
-				D9AD910D1244A1F600A220CA /* Connection.rb in Resources */,
-				D9AD910E1244A1F600A220CA /* InterfaceLift.rb in Resources */,
-				D9AD910F1244A1F600A220CA /* Wallpaper.rb in Resources */,
-				D9AD91101244A1F600A220CA /* WallpaperMenu.rb in Resources */,
-				D9AD91111244A1F600A220CA /* WallpaperMenuController.rb in Resources */,
-				D9AD91121244A1F600A220CA /* WallpaperRepository.rb in Resources */,
-				D9AD91131244A1F600A220CA /* WallpaperView.rb in Resources */,
+				D937966012453E660087CF7E /* Client.rb in Resources */,
+				D937966112453E660087CF7E /* Connection.rb in Resources */,
+				D937966212453E660087CF7E /* InterfaceLift.rb in Resources */,
+				D937966312453E660087CF7E /* Wallpaper.rb in Resources */,
+				D937966412453E660087CF7E /* WallpaperMenu.rb in Resources */,
+				D937966512453E660087CF7E /* WallpaperMenuController.rb in Resources */,
+				D937966612453E660087CF7E /* WallpaperNavigatorView.rb in Resources */,
+				D937966712453E660087CF7E /* WallpaperView.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
