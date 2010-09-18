@@ -784,9 +784,19 @@
 						<reference key="NSOnImage" ref="35465992"/>
 						<reference key="NSMixedImage" ref="807125248"/>
 					</object>
+					<object class="NSMenuItem" id="510204179">
+						<reference key="NSMenu" ref="873245327"/>
+						<bool key="NSIsDisabled">YES</bool>
+						<bool key="NSIsSeparator">YES</bool>
+						<string key="NSTitle"/>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="35465992"/>
+						<reference key="NSMixedImage" ref="807125248"/>
+					</object>
 					<object class="NSMenuItem" id="893667984">
 						<reference key="NSMenu" ref="873245327"/>
-						<string key="NSTitle">Item 3</string>
+						<string key="NSTitle">Quit</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="35465992"/>
@@ -796,6 +806,12 @@
 			</object>
 			<object class="NSCustomObject" id="577401501">
 				<string key="NSClassName">WallpaperMenuController</string>
+			</object>
+			<object class="NSCustomView" id="162416563">
+				<nil key="NSNextResponder"/>
+				<int key="NSvFlags">268</int>
+				<string key="NSFrame">{{41, 154}, {163, 96}}</string>
+				<string key="NSClassName">WallpaperView</string>
 			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
@@ -1128,6 +1144,22 @@
 						<reference key="destination" ref="577401501"/>
 					</object>
 					<int key="connectionID">390</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">wallpaper_view</string>
+						<reference key="source" ref="873245327"/>
+						<reference key="destination" ref="162416563"/>
+					</object>
+					<int key="connectionID">393</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">terminate:</string>
+						<reference key="source" ref="1021"/>
+						<reference key="destination" ref="893667984"/>
+					</object>
+					<int key="connectionID">395</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -1736,6 +1768,7 @@
 							<reference ref="837712262"/>
 							<reference ref="746592229"/>
 							<reference ref="893667984"/>
+							<reference ref="510204179"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -1758,6 +1791,16 @@
 						<int key="objectID">387</int>
 						<reference key="object" ref="577401501"/>
 						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">392</int>
+						<reference key="object" ref="162416563"/>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">394</int>
+						<reference key="object" ref="510204179"/>
+						<reference key="parent" ref="873245327"/>
 					</object>
 				</object>
 			</object>
@@ -1900,12 +1943,14 @@
 					<string>351.ImportedFromIB2</string>
 					<string>354.IBPluginDependency</string>
 					<string>354.ImportedFromIB2</string>
+					<string>383.CustomClassName</string>
 					<string>383.IBEditorWindowLastContentRect</string>
 					<string>383.IBPluginDependency</string>
 					<string>384.IBPluginDependency</string>
 					<string>385.IBPluginDependency</string>
 					<string>386.IBPluginDependency</string>
-					<string>387.IBPluginDependency</string>
+					<string>392.IBPluginDependency</string>
+					<string>394.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>5.ImportedFromIB2</string>
 					<string>56.IBPluginDependency</string>
@@ -2078,7 +2123,9 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{329, 782}, {96, 63}}</string>
+					<string>WallpaperMenu</string>
+					<string>{{329, 772}, {96, 73}}</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -2136,11 +2183,23 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">390</int>
+			<int key="maxID">395</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
+				<object class="IBPartialClassDescription">
+					<string key="className">WallpaperMenu</string>
+					<string key="superclassName">NSMenu</string>
+					<object class="NSMutableDictionary" key="outlets">
+						<string key="NS.key.0">wallpaper_view</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">WallpaperMenu.rb</string>
+					</object>
+				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">WallpaperMenuController</string>
 					<string key="superclassName">NSObject</string>
@@ -2151,6 +2210,14 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">WallpaperMenuController.rb</string>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">WallpaperView</string>
+					<string key="superclassName">NSView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">WallpaperView.rb</string>
 					</object>
 				</object>
 			</object>

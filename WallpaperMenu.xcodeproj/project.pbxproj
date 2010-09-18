@@ -50,6 +50,10 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D96384C61243030800C814B4 /* WallpaperMenuController.rb in Resources */ = {isa = PBXBuildFile; fileRef = D96384C51243030800C814B4 /* WallpaperMenuController.rb */; };
+		D9AD8FAF12442FEB00A220CA /* WallpaperView.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9AD8FAE12442FEB00A220CA /* WallpaperView.rb */; };
+		D9AD8FBF12443DC500A220CA /* Wallpaper.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9AD8FBE12443DC500A220CA /* Wallpaper.rb */; };
+		D9AD8FC81244416200A220CA /* wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9AD8FC61244416200A220CA /* wallpaper.jpg */; };
+		D9AD8FC91244416200A220CA /* WallpaperMenu.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9AD8FC71244416200A220CA /* WallpaperMenu.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +83,10 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* WallpaperMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallpaperMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96384C51243030800C814B4 /* WallpaperMenuController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WallpaperMenuController.rb; sourceTree = "<group>"; };
+		D9AD8FAE12442FEB00A220CA /* WallpaperView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WallpaperView.rb; sourceTree = "<group>"; };
+		D9AD8FBE12443DC500A220CA /* Wallpaper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Wallpaper.rb; sourceTree = "<group>"; };
+		D9AD8FC61244416200A220CA /* wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper.jpg; sourceTree = "<group>"; };
+		D9AD8FC71244416200A220CA /* WallpaperMenu.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = WallpaperMenu.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +105,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D9AD8FC71244416200A220CA /* WallpaperMenu.rb */,
+				D9AD8FBE12443DC500A220CA /* Wallpaper.rb */,
 				D96384C51243030800C814B4 /* WallpaperMenuController.rb */,
+				D9AD8FAE12442FEB00A220CA /* WallpaperView.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -163,6 +174,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9AD8FC61244416200A220CA /* wallpaper.jpg */,
 				2BFA9DA510CDF852007972A1 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -230,6 +242,10 @@
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */,
 				D96384C61243030800C814B4 /* WallpaperMenuController.rb in Resources */,
+				D9AD8FAF12442FEB00A220CA /* WallpaperView.rb in Resources */,
+				D9AD8FBF12443DC500A220CA /* Wallpaper.rb in Resources */,
+				D9AD8FC81244416200A220CA /* wallpaper.jpg in Resources */,
+				D9AD8FC91244416200A220CA /* WallpaperMenu.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
