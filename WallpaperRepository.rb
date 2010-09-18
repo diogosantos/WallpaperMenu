@@ -5,17 +5,16 @@ class WallpaperRepository
     @client.get_wallpapers
     
     @wallpaperCalls = 0
-    @wallpapers = []
-    puts has_received_wallpapers()
+    @wallpapers = []    
   end
 
   def next
-    unless has_received_wallpapers() then
+    unless has_received_wallpapers? then
       puts "Wallpapers not received yet."
       return Wallpapers.wallpaper_default()      
     end
 
-    if has_more_wallpapers() then
+    if has_more_wallpapers? then
       @wallpaperCalls = @wallpaperCalls + 1
       return @wallpapers[@wallpaperCalls]
     else
@@ -24,11 +23,11 @@ class WallpaperRepository
     end
   end
   
-  def has_received_wallpapers
+  def has_received_wallpapers?
     ! @wallpapers.empty?
   end
 
-  def has_more_wallpapers
+  def has_more_wallpapers?
     @wallpapers.length > @wallpaperCalls
   end
   
