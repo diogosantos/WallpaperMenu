@@ -3,7 +3,12 @@ class WallpaperMenuController
   attr_writer :menu
   
   def awakeFromNib
+	  @repository = WallpaperRepository.new
 	  initialize_menu()
+  end
+  
+  def next_wallpaper(sender)
+    @menu.wallpaper = @repository.next
   end
   
   def initialize_menu

@@ -11,4 +11,9 @@ class WallpaperMenu < NSMenu
     @menuItem.setView( @wallpaper_view )
   end
   
+  def wallpaper=(wallpaper)
+    @wallpaper_view.wallpaper = wallpaper
+    @wallpaper_view.display
+  end
+  
 end
