@@ -1,3 +1,5 @@
+require 'connection'
+
 class Client < Connection
   
   def initialze(delegate)
