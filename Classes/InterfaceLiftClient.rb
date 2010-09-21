@@ -1,5 +1,3 @@
-require 'Client'
-
 class InterfaceLiftClient < Client
   
   def initialize(delegate)
@@ -18,7 +16,7 @@ class InterfaceLiftClient < Client
       wallpapers << Wallpaper.new(NSURL.URLWithString( thumbnail.attributeForName("src").stringValue ) )
     }
 
-    originals = document.rootElement().nodesForXPath("//div[@class='preview']/div[@class='download']/div", error:@error)		
+    originals = document.rootElement().nodesForXPath("//div[@class='preview']/div[@class='download']/div", error:@error)    
     wallpapers.each_index { |i|
       html_div = originals[i]
       html_a = html_div.elementsForName("a")[0]
@@ -31,6 +29,4 @@ class InterfaceLiftClient < Client
     return wallpapers;
   end
   
-  
-
 end

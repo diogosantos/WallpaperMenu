@@ -3,12 +3,19 @@
 	172754BD107597F200D0347B /* Unit Tests */ = {
 		activeExec = 0;
 	};
+	17D55CD81076A1A2008207BD /* run_suite.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {792, 297}}";
+			sepNavSelRange = "{84, 0}";
+			sepNavVisRange = "{0, 84}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = D96384201242B8E400C814B4 /* WallpaperMenu */;
-		activeTarget = 8D1107260486CEB800E47090 /* WallpaperMenu */;
+		activeTarget = 172754BD107597F200D0347B /* Unit Tests */;
 		addToTargets = (
-			8D1107260486CEB800E47090 /* WallpaperMenu */,
+			172754BD107597F200D0347B /* Unit Tests */,
 		);
 		codeSenseManager = D96384331242B8E900C814B4 /* Code sense */;
 		executables = (
@@ -37,37 +44,47 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 306517441;
-			PBXWorkspaceStateSaveDate = 306517441;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					574,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 306729176;
+			PBXWorkspaceStateSaveDate = 306729176;
 		};
 		perUserProjectItems = {
-			D9379607124515C70087CF7E /* PBXTextBookmark */ = D9379607124515C70087CF7E /* PBXTextBookmark */;
-			D937962C124520440087CF7E /* PBXBookmark */ = D937962C124520440087CF7E /* PBXBookmark */;
-			D937962D124520440087CF7E /* PBXTextBookmark */ = D937962D124520440087CF7E /* PBXTextBookmark */;
-			D937962E124520440087CF7E /* PBXTextBookmark */ = D937962E124520440087CF7E /* PBXTextBookmark */;
-			D937964B12452A830087CF7E /* PBXTextBookmark */ = D937964B12452A830087CF7E /* PBXTextBookmark */;
-			D937964D124536910087CF7E /* PBXTextBookmark */ = D937964D124536910087CF7E /* PBXTextBookmark */;
-			D937967A12453F990087CF7E /* PBXBookmark */ = D937967A12453F990087CF7E /* PBXBookmark */;
-			D937967B12453F990087CF7E /* PBXTextBookmark */ = D937967B12453F990087CF7E /* PBXTextBookmark */;
-			D937967C12453F990087CF7E /* PBXTextBookmark */ = D937967C12453F990087CF7E /* PBXTextBookmark */;
-			D937967D12453F990087CF7E /* PBXTextBookmark */ = D937967D12453F990087CF7E /* PBXTextBookmark */;
-			D937967E12453F990087CF7E /* PBXTextBookmark */ = D937967E12453F990087CF7E /* PBXTextBookmark */;
-			D937967F12453F990087CF7E /* PBXTextBookmark */ = D937967F12453F990087CF7E /* PBXTextBookmark */;
-			D937968012453F990087CF7E /* PBXTextBookmark */ = D937968012453F990087CF7E /* PBXTextBookmark */;
-			D937968112453F990087CF7E /* PBXTextBookmark */ = D937968112453F990087CF7E /* PBXTextBookmark */;
-			D937968212453F990087CF7E /* PBXTextBookmark */ = D937968212453F990087CF7E /* PBXTextBookmark */;
-			D937968312453F990087CF7E /* PBXTextBookmark */ = D937968312453F990087CF7E /* PBXTextBookmark */;
+			D937967A12453F990087CF7E = D937967A12453F990087CF7E /* PBXBookmark */;
 			D963853D1243175500C814B4 = D963853D1243175500C814B4 /* PlistBookmark */;
-			D9AD911D1244A22F00A220CA = D9AD911D1244A22F00A220CA /* PBXTextBookmark */;
-			D9AD911F1244A22F00A220CA = D9AD911F1244A22F00A220CA /* PBXTextBookmark */;
-			D9AD91201244A22F00A220CA = D9AD91201244A22F00A220CA /* PBXTextBookmark */;
-			D9AD91221244A22F00A220CA = D9AD91221244A22F00A220CA /* PBXTextBookmark */;
-			D9AD91231244A22F00A220CA = D9AD91231244A22F00A220CA /* PBXTextBookmark */;
-			D9AD91331244A2AC00A220CA = D9AD91331244A2AC00A220CA /* PBXTextBookmark */;
-			D9AD91341244A2AC00A220CA = D9AD91341244A2AC00A220CA /* PBXTextBookmark */;
-			D9AD91A71244ABC900A220CA = D9AD91A71244ABC900A220CA /* PBXTextBookmark */;
-			D9AD91A81244ABC900A220CA = D9AD91A81244ABC900A220CA /* PBXTextBookmark */;
-			D9AD91C31244B01800A220CA = D9AD91C31244B01800A220CA /* PBXTextBookmark */;
+			D96A071C1248413600944498 = D96A071C1248413600944498 /* PBXTextBookmark */;
+			D96A071D1248413600944498 = D96A071D1248413600944498 /* PBXTextBookmark */;
+			D96A071E1248413600944498 = D96A071E1248413600944498 /* PBXTextBookmark */;
+			D96A071F1248413600944498 = D96A071F1248413600944498 /* PBXTextBookmark */;
+			D96A07201248413600944498 = D96A07201248413600944498 /* PBXTextBookmark */;
+			D96A07211248413600944498 = D96A07211248413600944498 /* PBXTextBookmark */;
+			D96A07221248413600944498 = D96A07221248413600944498 /* PBXTextBookmark */;
+			D96A07231248413600944498 = D96A07231248413600944498 /* PBXTextBookmark */;
+			D96A07241248413600944498 = D96A07241248413600944498 /* PBXTextBookmark */;
+			D96A07251248413600944498 = D96A07251248413600944498 /* PBXTextBookmark */;
+			D96A07DE12484EB000944498 = D96A07DE12484EB000944498 /* PBXTextBookmark */;
+			D96A07DF12484EB000944498 = D96A07DF12484EB000944498 /* PBXTextBookmark */;
+			D96A07FD1248509A00944498 = D96A07FD1248509A00944498 /* PBXTextBookmark */;
 		};
 		sourceControlManager = D96384321242B8E900C814B4 /* Source Control */;
 		userBuildSettings = {
@@ -81,9 +98,10 @@
 	};
 	4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 351}}";
-			sepNavSelRange = "{630, 0}";
-			sepNavVisRange = "{0, 630}";
+			sepNavIntBoundsRect = "{{0, 0}, {792, 312}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 616}";
+			sepNavWindowFrame = "{{15, 64}, {1231, 814}}";
 		};
 	};
 	8D1107260486CEB800E47090 /* WallpaperMenu */ = {
@@ -97,209 +115,65 @@
 			sepNavWindowFrame = "{{15, 64}, {1231, 814}}";
 		};
 	};
-	D9379607124515C70087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9AD91091244A1F600A220CA /* WallpaperMenuController.rb */;
-		name = "WallpaperMenuController.rb: 14";
-		rLen = 0;
-		rLoc = 244;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
-	D937962C124520440087CF7E /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = D9AD8FC61244416200A220CA /* wallpaper.jpg */;
-	};
-	D937962D124520440087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9AD91091244A1F600A220CA /* WallpaperMenuController.rb */;
-		name = "WallpaperMenuController.rb: 14";
-		rLen = 0;
-		rLoc = 244;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
-	D937962E124520440087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9AD91091244A1F600A220CA /* WallpaperMenuController.rb */;
-		name = "WallpaperMenuController.rb: 21";
-		rLen = 0;
-		rLoc = 437;
-		rType = 0;
-		vrLen = 437;
-		vrLoc = 0;
-	};
-	D937964B12452A830087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9AD91091244A1F600A220CA /* WallpaperMenuController.rb */;
-		name = "WallpaperMenuController.rb: 21";
-		rLen = 0;
-		rLoc = 437;
-		rType = 0;
-		vrLen = 437;
-		vrLoc = 0;
-	};
-	D937964D124536910087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9AD91091244A1F600A220CA /* WallpaperMenuController.rb */;
-		name = "WallpaperMenuController.rb: 21";
-		rLen = 0;
-		rLoc = 437;
-		rType = 0;
-		vrLen = 437;
-		vrLoc = 0;
-	};
 	D937965812453E660087CF7E /* Client.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 455}}";
+			sepNavIntBoundsRect = "{{0, 0}, {792, 390}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 709}";
+			sepNavVisRange = "{0, 673}";
 		};
 	};
 	D937965912453E660087CF7E /* Connection.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 598}}";
+			sepNavIntBoundsRect = "{{0, 0}, {992, 611}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 925}";
+			sepNavVisRange = "{0, 795}";
 		};
 	};
-	D937965A12453E660087CF7E /* InterfaceLift.rb */ = {
+	D937965A12453E660087CF7E /* InterfaceLiftClient.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {908, 403}}";
+			sepNavIntBoundsRect = "{{0, 0}, {908, 364}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 890}";
+			sepNavVisRange = "{0, 729}";
 		};
 	};
 	D937965B12453E660087CF7E /* Wallpaper.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 343}}";
+			sepNavIntBoundsRect = "{{0, 0}, {792, 297}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 332}";
 		};
 	};
 	D937965C12453E660087CF7E /* WallpaperMenu.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 343}}";
+			sepNavIntBoundsRect = "{{0, 0}, {792, 297}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 307}";
 		};
 	};
 	D937965D12453E660087CF7E /* WallpaperMenuController.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 364}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 651}";
+			sepNavIntBoundsRect = "{{0, 0}, {792, 351}}";
+			sepNavSelRange = "{32, 0}";
+			sepNavVisRange = "{0, 560}";
 		};
 	};
 	D937965E12453E660087CF7E /* WallpaperNavigatorView.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 572}}";
+			sepNavIntBoundsRect = "{{0, 0}, {792, 611}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 557}";
+			sepNavVisRange = "{0, 490}";
 		};
 	};
 	D937965F12453E660087CF7E /* WallpaperView.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 343}}";
-			sepNavSelRange = "{266, 0}";
-			sepNavVisRange = "{0, 611}";
+			sepNavIntBoundsRect = "{{0, 0}, {792, 312}}";
+			sepNavSelRange = "{50, 0}";
+			sepNavVisRange = "{0, 606}";
 		};
 	};
 	D937967A12453F990087CF7E /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = D9AD8FC61244416200A220CA /* wallpaper.jpg */;
-	};
-	D937967B12453F990087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D937965F12453E660087CF7E /* WallpaperView.rb */;
-		name = "WallpaperView.rb: 10";
-		rLen = 0;
-		rLoc = 266;
-		rType = 0;
-		vrLen = 611;
-		vrLoc = 0;
-	};
-	D937967C12453F990087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D937965D12453E660087CF7E /* WallpaperMenuController.rb */;
-		name = "WallpaperMenuController.rb: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 651;
-		vrLoc = 0;
-	};
-	D937967D12453F990087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D937965C12453E660087CF7E /* WallpaperMenu.rb */;
-		name = "WallpaperMenu.rb: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 307;
-		vrLoc = 0;
-	};
-	D937967E12453F990087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D937965B12453E660087CF7E /* Wallpaper.rb */;
-		name = "Wallpaper.rb: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 332;
-		vrLoc = 0;
-	};
-	D937967F12453F990087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D937965A12453E660087CF7E /* InterfaceLift.rb */;
-		name = "InterfaceLift.rb: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 890;
-		vrLoc = 0;
-	};
-	D937968012453F990087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D937965912453E660087CF7E /* Connection.rb */;
-		name = "Connection.rb: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 925;
-		vrLoc = 0;
-	};
-	D937968112453F990087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D937965812453E660087CF7E /* Client.rb */;
-		name = "Client.rb: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 709;
-		vrLoc = 0;
-	};
-	D937968212453F990087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D937965E12453E660087CF7E /* WallpaperNavigatorView.rb */;
-		name = "WallpaperNavigatorView.rb: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 575;
-		vrLoc = 0;
-	};
-	D937968312453F990087CF7E /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D937965E12453E660087CF7E /* WallpaperNavigatorView.rb */;
-		name = "WallpaperNavigatorView.rb: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 557;
-		vrLoc = 0;
 	};
 	D96384201242B8E400C814B4 /* WallpaperMenu */ = {
 		isa = PBXExecutable;
@@ -308,7 +182,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -356,128 +230,23 @@
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
-	D9AD8FC61244416200A220CA /* wallpaper.jpg */ = {
+	D96A06D712483CF100944498 /* InterfaceLift_test.rb */ = {
 		uiCtxt = {
-			sepNavWindowFrame = "{{15, 64}, {1231, 814}}";
+			sepNavIntBoundsRect = "{{0, 0}, {936, 364}}";
+			sepNavSelRange = "{194, 0}";
+			sepNavVisRange = "{0, 871}";
 		};
 	};
-	D9AD91041244A1F600A220CA /* Client.rb */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = text.script.ruby;
-		name = Client.rb;
-		path = /Users/diogo/Developer/Projects/Personal/WallpaperMenu/Client.rb;
-		sourceTree = "<absolute>";
+	D96A06D812483CF100944498 /* InterfaceLift.html */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 429}}";
-			sepNavSelRange = "{20, 0}";
-			sepNavVisRange = "{0, 689}";
+			sepNavIntBoundsRect = "{{0, 0}, {3386, 16640}}";
+			sepNavSelRange = "{10969, 1}";
+			sepNavVisRange = "{9894, 1720}";
 		};
 	};
-	D9AD91051244A1F600A220CA /* Connection.rb */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = text.script.ruby;
-		name = Connection.rb;
-		path = /Users/diogo/Developer/Projects/Personal/WallpaperMenu/Connection.rb;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 611}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 923}";
-		};
-	};
-	D9AD91061244A1F600A220CA /* InterfaceLift.rb */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = text.script.ruby;
-		name = InterfaceLift.rb;
-		path = /Users/diogo/Developer/Projects/Personal/WallpaperMenu/InterfaceLift.rb;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {908, 468}}";
-			sepNavSelRange = "{954, 0}";
-			sepNavVisRange = "{116, 835}";
-		};
-	};
-	D9AD91071244A1F600A220CA /* Wallpaper.rb */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = text.script.ruby;
-		name = Wallpaper.rb;
-		path = /Users/diogo/Developer/Projects/Personal/WallpaperMenu/Wallpaper.rb;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 328}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 332}";
-		};
-	};
-	D9AD91081244A1F600A220CA /* WallpaperMenu.rb */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = text.script.ruby;
-		name = WallpaperMenu.rb;
-		path = /Users/diogo/Developer/Projects/Personal/WallpaperMenu/WallpaperMenu.rb;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 328}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 333}";
-		};
-	};
-	D9AD91091244A1F600A220CA /* WallpaperMenuController.rb */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = text.script.ruby;
-		name = WallpaperMenuController.rb;
-		path = /Users/diogo/Developer/Projects/Personal/WallpaperMenu/WallpaperMenuController.rb;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 343}}";
-			sepNavSelRange = "{437, 0}";
-			sepNavVisRange = "{0, 437}";
-		};
-	};
-	D9AD910A1244A1F600A220CA /* WallpaperRepository.rb */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = text.script.ruby;
-		name = WallpaperRepository.rb;
-		path = /Users/diogo/Developer/Projects/Personal/WallpaperMenu/WallpaperRepository.rb;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {792, 533}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 582}";
-		};
-	};
-	D9AD910B1244A1F600A220CA /* WallpaperView.rb */ = {
-		isa = PBXFileReference;
-		fileEncoding = 4;
-		lastKnownFileType = text.script.ruby;
-		name = WallpaperView.rb;
-		path = /Users/diogo/Developer/Projects/Personal/WallpaperMenu/WallpaperView.rb;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 351}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 634}";
-		};
-	};
-	D9AD911D1244A22F00A220CA /* PBXTextBookmark */ = {
+	D96A071C1248413600944498 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D9AD91051244A1F600A220CA /* Connection.rb */;
-		name = "Connection.rb: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 923;
-		vrLoc = 0;
-	};
-	D9AD911F1244A22F00A220CA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9AD91071244A1F600A220CA /* Wallpaper.rb */;
+		fRef = D937965B12453E660087CF7E /* Wallpaper.rb */;
 		name = "Wallpaper.rb: 1";
 		rLen = 0;
 		rLoc = 0;
@@ -485,84 +254,129 @@
 		vrLen = 332;
 		vrLoc = 0;
 	};
-	D9AD91201244A22F00A220CA /* PBXTextBookmark */ = {
+	D96A071D1248413600944498 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D9AD91081244A1F600A220CA /* WallpaperMenu.rb */;
+		fRef = D937965C12453E660087CF7E /* WallpaperMenu.rb */;
 		name = "WallpaperMenu.rb: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 333;
+		vrLen = 307;
 		vrLoc = 0;
 	};
-	D9AD91221244A22F00A220CA /* PBXTextBookmark */ = {
+	D96A071E1248413600944498 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D9AD910A1244A1F600A220CA /* WallpaperRepository.rb */;
-		name = "WallpaperRepository.rb: 1";
+		fRef = D937965F12453E660087CF7E /* WallpaperView.rb */;
+		name = "WallpaperView.rb: 3";
+		rLen = 0;
+		rLoc = 50;
+		rType = 0;
+		vrLen = 606;
+		vrLoc = 0;
+	};
+	D96A071F1248413600944498 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D937965E12453E660087CF7E /* WallpaperNavigatorView.rb */;
+		name = "WallpaperNavigatorView.rb: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 582;
+		vrLen = 490;
 		vrLoc = 0;
 	};
-	D9AD91231244A22F00A220CA /* PBXTextBookmark */ = {
+	D96A07201248413600944498 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D9AD910B1244A1F600A220CA /* WallpaperView.rb */;
-		name = "WallpaperView.rb: 1";
+		fRef = D937965D12453E660087CF7E /* WallpaperMenuController.rb */;
+		name = "WallpaperMenuController.rb: 2";
+		rLen = 0;
+		rLoc = 32;
+		rType = 0;
+		vrLen = 560;
+		vrLoc = 0;
+	};
+	D96A07211248413600944498 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D937965A12453E660087CF7E /* InterfaceLiftClient.rb */;
+		name = "InterfaceLiftClient.rb: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 634;
+		vrLen = 729;
 		vrLoc = 0;
 	};
-	D9AD91331244A2AC00A220CA /* PBXTextBookmark */ = {
+	D96A07221248413600944498 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */;
-		name = "rb_main.rb: 25";
+		fRef = D937965912453E660087CF7E /* Connection.rb */;
+		name = "Connection.rb: 1";
 		rLen = 0;
-		rLoc = 630;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 630;
+		vrLen = 795;
 		vrLoc = 0;
 	};
-	D9AD91341244A2AC00A220CA /* PBXTextBookmark */ = {
+	D96A07231248413600944498 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D9AD91041244A1F600A220CA /* Client.rb */;
+		fRef = D937965812453E660087CF7E /* Client.rb */;
 		name = "Client.rb: 1";
 		rLen = 0;
-		rLoc = 20;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 689;
+		vrLen = 673;
 		vrLoc = 0;
 	};
-	D9AD91A71244ABC900A220CA /* PBXTextBookmark */ = {
+	D96A07241248413600944498 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D9AD91061244A1F600A220CA /* InterfaceLift.rb */;
-		name = "InterfaceLift.rb: 36";
-		rLen = 0;
-		rLoc = 954;
-		rType = 0;
-		vrLen = 835;
-		vrLoc = 116;
-	};
-	D9AD91A81244ABC900A220CA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D9AD91091244A1F600A220CA /* WallpaperMenuController.rb */;
-		name = "WallpaperMenuController.rb: 1";
+		fRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */;
+		name = "rb_main.rb: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 425;
+		vrLen = 616;
 		vrLoc = 0;
 	};
-	D9AD91C31244B01800A220CA /* PBXTextBookmark */ = {
+	D96A07251248413600944498 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = D9AD91091244A1F600A220CA /* WallpaperMenuController.rb */;
-		name = "WallpaperMenuController.rb: 14";
-		rLen = 0;
-		rLoc = 244;
+		fRef = D96A06D812483CF100944498 /* InterfaceLift.html */;
+		name = "InterfaceLift.html: 202";
+		rLen = 1;
+		rLoc = 10969;
 		rType = 0;
-		vrLen = 435;
+		vrLen = 1720;
+		vrLoc = 9894;
+	};
+	D96A07DE12484EB000944498 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 17D55CD81076A1A2008207BD /* run_suite.rb */;
+		name = "run_suite.rb: 1";
+		rLen = 0;
+		rLoc = 84;
+		rType = 0;
+		vrLen = 84;
 		vrLoc = 0;
+	};
+	D96A07DF12484EB000944498 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D96A06D712483CF100944498 /* InterfaceLift_test.rb */;
+		name = "InterfaceLift_test.rb: 11";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 20;
+	};
+	D96A07FD1248509A00944498 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D96A06D712483CF100944498 /* InterfaceLift_test.rb */;
+		name = "InterfaceLift_test.rb: 9";
+		rLen = 0;
+		rLoc = 194;
+		rType = 0;
+		vrLen = 871;
+		vrLoc = 0;
+	};
+	D9AD8FC61244416200A220CA /* wallpaper.jpg */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 64}, {1231, 814}}";
+		};
 	};
 }

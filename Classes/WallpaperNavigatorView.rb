@@ -4,7 +4,7 @@ class WallpaperNavigatorView < NSView
   
   def awakeFromNib
     @wallpapers = []
-    @calls = 0
+    reset_calls()
   end
   
   def wallpapers=(wallpapers)
@@ -20,12 +20,17 @@ class WallpaperNavigatorView < NSView
     
     if more_wallpapers_to_call? then
       w = @wallpapers[@calls]
-      increment_call()
+      increment_calls()
       return w
     else
-      puts "No more wallpapers to display."        
+      puts "No more wallpapers to display."
+      reset_calls()
       return @wallpapers[0]
     end
+  end
+  
+  def reset_calls
+    @calls = 0;
   end
   
   def received_wallpapers?
@@ -36,7 +41,7 @@ class WallpaperNavigatorView < NSView
     @wallpapers.length > @calls
   end
   
-  def increment_call
+  def increment_calls
     @calls = @calls + 1
   end
   

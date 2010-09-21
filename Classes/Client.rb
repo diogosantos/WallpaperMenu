@@ -1,11 +1,9 @@
-require 'Connection'
-
 class Client < Connection
   
   def initialze(delegate)
     super(self)
     @delegate = delegate    
-    @error = nil
+    @error = Pointer.new_with_type('@')
   end
   
   def get_wallpapers

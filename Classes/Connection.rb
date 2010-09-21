@@ -8,7 +8,7 @@ class Connection
     @buffer = NSMutableData.data
     @status_code = 0
     @request_url = url    
-    @connection = NSURLConnection.alloc.initWithRequest( request(), delegate:self); 
+    @connection = NSURLConnection.alloc.initWithRequest( request(), delegate:self)
   end
   
   def request()
@@ -16,7 +16,7 @@ class Connection
     														      cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData,
     													    timeoutInterval:60.0 )
     user_agent = "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us) AppleWebKit/534.1+ (KHTML, like Gecko) Version/5.0 Safari/533.16"
-    request.setValue(user_agent, forHTTPHeaderField:"User-Agent");
+    request.setValue(user_agent, forHTTPHeaderField:"User-Agent")
     return request
   end
   
@@ -35,11 +35,11 @@ class Connection
       @status_code = response.statusCode
       puts "Response: #{@status_code}"
     end      
-  	@buffer.setLength(0);
+  	@buffer.setLength(0)
   end
   
   def connection(connection, didReceiveData:data)
-  	@buffer.appendData(data);
+  	@buffer.appendData(data)
   end
 
   def connectionDidFailWithError(error)
