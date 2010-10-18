@@ -12,4 +12,4 @@ Architecture (Developer Stuff)
 I tried to isolate the interfaceLIFT.com accessing and HTML parsing in a separated class just to leave an open door for plugins creation. I have plans to create some plugins allowing people to navigate through other beautiful pictures websites.
 
 2) Nokogiri with MacRuby
-I've heard from the grape vines that now it's possible to use Nokogiri with MacRuby. If you know how to do that, please let me know or even better, send me your patch.
+I've heard that now it's possible to use Nokogiri with MacRuby. If you know how to do that, please let me know or even better, send me your patch.
