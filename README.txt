@@ -9,12 +9,14 @@ Wallpaper Menu has non production code, it means that you should not use it by n
 
 TODO.
 -------------------
+# Implement the "Previous" button
 # When a thumbnail was clicked twice, WallpaperMenu should download it only once
 # Make the folder for downloaded wallpapers and the screen resolution configurable.
 # Give the user some feedback while downloading the wallpaper.
 # Refactoring the network access architecture and remove duplications. 
 # WallpaperNavigatorView needs to request more wallpapers to show.
 # WallpaperView needs to display a loading image when not display wallpapers and not that placeholder.
+# Call a designer to make the application looking great
 
 
 FOR DEVELOPERS.
