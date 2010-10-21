@@ -9,7 +9,7 @@ Wallpaper Menu has non production code, it means that you should not use it by n
 
 TODO.
 -------------------
-# The menu should be closed when a thumbnail were clicked
+# When a thumbnail was clicked twice, WallpaperMenu should download it only once
 # Make the folder for downloaded wallpapers and the screen resolution configurable.
 # Give the user some feedback while downloading the wallpaper.
 # Refactoring the network access architecture and remove duplications. 

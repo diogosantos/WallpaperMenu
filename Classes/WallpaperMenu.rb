@@ -21,6 +21,7 @@ class WallpaperMenu < NSMenu
   def wallpaper_clicked(wallpaper)
     puts "Asking the controller for download the wallpaper"    
     @delegate.download_wallpaper(wallpaper)
+    self.cancelTracking
   end
   
 end
