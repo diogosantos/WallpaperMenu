@@ -1,37 +1,48 @@
 class WallpaperMenuController
   
-  attr_writer :menu
+  attr_writer :menu, :navigator
   
   def awakeFromNib
-	  @wallpaper_client = InterfaceLiftClient.new(self)
-	  @wallpaper_client.get_wallpapers
-	  @downloader = Downloader.new(self)
-	  
+	  initialize_wallpapers()
+	  initialize_navigator()
 	  initialize_menu()
   end
   
+  def initialize_wallpapers
+    @wallpaper_client = InterfaceLiftClient.new(self)
+	  @wallpaper_client.get_wallpapers
+  end
+  
+  def initialize_navigator
+    @navigator.delegate = self
+    item = @menu.itemAtIndex(0)
+    item.setView( @navigator )
+  end
+  
   def initialize_menu
-    @status_item = NSStatusBar.systemStatusBar.statusItemWithLength(30.0)
+	  @status_item = NSStatusBar.systemStatusBar.statusItemWithLength(30.0)
     @status_item.setTitle("WM")
     @status_item.setMenu(@menu)
     @status_item.setHighlightMode(true)
-    
-    @menu.delegate = self
   end
+  
+  def go_next(sender)
+    @navigator.display_next
+  end 
+  
+  def go_previous(sender)
+    "Go previous is not implemented yet."
+  end 
   
   def clientDidSucceed(wallpapers)
-    puts "#{wallpapers.length} wallpapers reveived from InterfaceLift.com"
-    @menu.wallpapers = wallpapers
+    puts "#{wallpapers.length} wallpapers reveived"
+    @navigator.wallpapers = wallpapers
   end
   
-  def clientDidFail(sender, error:error)
-    puts "InterfaceLift.com has failed."
-  end
-  
-  def download_wallpaper(wallpaper)    
-    path = "/Users/diogo/Pictures/#{NSDate.date().timeIntervalSinceReferenceDate()}.jpg"
-  	      	
-  	@downloader.download(wallpaper.original_url, path)
+  def wallpaper_clicked(wallpaper)    
+    path = "/Users/diogo/Pictures/#{NSDate.date().timeIntervalSinceReferenceDate()}.jpg"      	
+  	Downloader.new(self).download(wallpaper.original_url, path)
+  	@menu.cancelTracking
   end
 
   def downloadDidFinish(path)

@@ -13,7 +13,7 @@ class Client < Connection
   end
   
   def connectionDidFailWithError(error)
-    delegate.clientDidFail( self, error:error.localizedDescription() );
+    puts error.localizedDescription()
   end
 
   def connectionDidFinishLoading(content)
@@ -22,7 +22,7 @@ class Client < Connection
     		wallpapers = parse_document(document)
     		@delegate.clientDidSucceed(wallpapers)
     else
-    		@delegate.clientDidFail(self, error:"Server responded with #{@status_code}")
+    		puts "Server responded with #{@status_code}"
     end
   end
   

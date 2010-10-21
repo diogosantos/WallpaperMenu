@@ -1,70 +1,64 @@
 class WallpaperNavigatorView < NSView
-  
+
   attr_writer :wallpaper_view
   attr_accessor :delegate
-  
-  def awakeFromNib
+
+  def awakeFromNib 
     @wallpapers = []
-    reset_calls()
+    @calls = -1
   end
-  
+
   def wallpapers=(wallpapers)
     @wallpapers.concat(wallpapers)
   end
-  
-  def jump_next(sender)
-    @wallpaper_view.display_wallpaper( next_wallpaper() )
-  end
-  
+
   def mouseDown(sender)  
-    if wallpaper_clicked?(sender) then
-       puts "Wallpaper Clicked"
-       @delegate.wallpaper_clicked( @current_wallpaper )
+    if wallpaper_clicked?(sender)
+      puts "Wallpaper Clicked"
+      @delegate.wallpaper_clicked( @current_wallpaper )
     end    
   end
-  
-  def wallpaper_clicked?(sender)
-    NSPointInRect(adjust_click_location(sender.locationInWindow), @wallpaper_view.bounds)
+
+  def wallpaper_clicked?(mouse)
+    NSPointInRect(adjust_click_location(mouse.locationInWindow), @wallpaper_view.bounds)
   end
-  
+
   def adjust_click_location(point)    
     point.x = point.x - 6
     point.y = point.y - 54
     return point
   end
-  
-  def next_wallpaper
-    return Wallpaper.wallpaper_default unless received_wallpapers?
-    
-    if more_wallpapers_to_call? then
-      @current_wallpaper = @wallpapers[@calls]
-      increment_calls()
-      return @current_wallpaper
+
+  def display_next
+    unless received_wallpapers?
+      @current_wallpaper = Wallpaper.wallpaper_default 
+    end
+
+    increment_calls()
+    @current_wallpaper = @wallpapers[@calls]
+    display_current_wallpaper()
+  end
+
+  def increment_calls
+    if still_has_wallpapers_to_display?
+      @calls = @calls + 1            
     else
       puts "No more wallpapers to display."
-      reset_calls()
-      return @wallpapers[0]
+      @calls = 0
     end
   end
-  
-  def reset_calls
-    @calls = 0;
+
+  def display_current_wallpaper
+    puts "Current wallpaper index = #{@calls}"
+    @wallpaper_view.display_wallpaper(@current_wallpaper)
   end
-  
+
+  def still_has_wallpapers_to_display?
+    @wallpapers.length > ( @calls + 1 )
+  end
+
   def received_wallpapers?
     ! @wallpapers.empty?
   end
-  
-  def more_wallpapers_to_call?
-    @wallpapers.length > @calls
-  end
-  
-  def increment_calls
-    @calls = @calls + 1
-  end
-  
-  def jump_previous(sender)
-    puts "previous clicked..."
-  end
-  
+
 end
