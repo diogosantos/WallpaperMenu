@@ -1,6 +1,7 @@
 class WallpaperNavigatorView < NSView
   
   attr_writer :wallpaper_view
+  attr_accessor :delegate
   
   def awakeFromNib
     @wallpapers = []
@@ -17,7 +18,8 @@ class WallpaperNavigatorView < NSView
   
   def mouseDown(sender)  
     if wallpaper_clicked?(sender) then
-       puts "click!"
+       puts "Wallpaper Clicked"
+       @delegate.wallpaper_clicked( @current_wallpaper )
     end    
   end
   
@@ -35,9 +37,9 @@ class WallpaperNavigatorView < NSView
     return Wallpaper.wallpaper_default unless received_wallpapers?
     
     if more_wallpapers_to_call? then
-      w = @wallpapers[@calls]
+      @current_wallpaper = @wallpapers[@calls]
       increment_calls()
-      return w
+      return @current_wallpaper
     else
       puts "No more wallpapers to display."
       reset_calls()

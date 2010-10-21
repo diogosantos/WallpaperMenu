@@ -1,2 +1,0 @@
-WallpaperNavigatorView needs to request more wallpapers to show
-WallpaperView needs to display a loading image when not display wallpapers

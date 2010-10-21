@@ -5,7 +5,7 @@ class InterfaceLiftClient < Client
   end
   
   def url
-    "http://interfacelift.com/wallpaper_beta/downloads/date/widescreen/1440x900/"
+    NSURL.URLWithString("http://interfacelift.com/wallpaper_beta/downloads/date/widescreen/1440x900/")
   end
 
   def parse_document(document)

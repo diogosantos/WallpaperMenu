@@ -58,6 +58,7 @@
 		D937966612453E660087CF7E /* WallpaperNavigatorView.rb in Resources */ = {isa = PBXBuildFile; fileRef = D937965E12453E660087CF7E /* WallpaperNavigatorView.rb */; };
 		D937966712453E660087CF7E /* WallpaperView.rb in Resources */ = {isa = PBXBuildFile; fileRef = D937965F12453E660087CF7E /* WallpaperView.rb */; };
 		D9AD8FC81244416200A220CA /* wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9AD8FC61244416200A220CA /* wallpaper.jpg */; };
+		D9D6146C126E933C00D8D69D /* Downloader.rb in Resources */ = {isa = PBXBuildFile; fileRef = D9D6146B126E933C00D8D69D /* Downloader.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,6 +97,7 @@
 		D96A06D712483CF100944498 /* InterfaceLift_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = InterfaceLift_test.rb; sourceTree = "<group>"; };
 		D96A06D812483CF100944498 /* InterfaceLift.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = InterfaceLift.html; sourceTree = "<group>"; };
 		D9AD8FC61244416200A220CA /* wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wallpaper.jpg; sourceTree = "<group>"; };
+		D9D6146B126E933C00D8D69D /* Downloader.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Downloader.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 		D937965712453E660087CF7E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D9D6146B126E933C00D8D69D /* Downloader.rb */,
 				D937965812453E660087CF7E /* Client.rb */,
 				D937965912453E660087CF7E /* Connection.rb */,
 				D937965A12453E660087CF7E /* InterfaceLiftClient.rb */,
@@ -264,6 +267,7 @@
 				D937966512453E660087CF7E /* WallpaperMenuController.rb in Resources */,
 				D937966612453E660087CF7E /* WallpaperNavigatorView.rb in Resources */,
 				D937966712453E660087CF7E /* WallpaperView.rb in Resources */,
+				D9D6146C126E933C00D8D69D /* Downloader.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
