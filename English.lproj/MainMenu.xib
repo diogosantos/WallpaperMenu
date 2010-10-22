@@ -11,8 +11,8 @@
 			<string key="NS.object.0">762</string>
 		</object>
 		<array class="NSMutableArray" key="IBDocument.EditedObjectIDs">
-			<integer value="383"/>
 			<integer value="400"/>
+			<integer value="383"/>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -1197,20 +1197,36 @@
 					<int key="connectionID">413</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">go_next:</string>
-						<reference key="source" ref="577401501"/>
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">previous_button</string>
+						<reference key="source" ref="476874102"/>
+						<reference key="destination" ref="713180644"/>
+					</object>
+					<int key="connectionID">418</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">next_button</string>
+						<reference key="source" ref="476874102"/>
 						<reference key="destination" ref="948445399"/>
 					</object>
-					<int key="connectionID">414</int>
+					<int key="connectionID">419</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">go_previous:</string>
+						<string key="label">action_previous:</string>
 						<reference key="source" ref="577401501"/>
 						<reference key="destination" ref="713180644"/>
 					</object>
-					<int key="connectionID">417</int>
+					<int key="connectionID">420</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">action_next:</string>
+						<reference key="source" ref="577401501"/>
+						<reference key="destination" ref="948445399"/>
+					</object>
+					<int key="connectionID">421</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -2045,7 +2061,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">417</int>
+			<int key="maxID">421</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -2053,8 +2069,8 @@
 					<string key="className">WallpaperMenuController</string>
 					<string key="superclassName">NSObject</string>
 					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="go_next:">id</string>
-						<string key="go_previous:">id</string>
+						<string key="action_next:">id</string>
+						<string key="action_previous:">id</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="menu">id</string>
@@ -2074,6 +2090,8 @@
 					</object>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="delegate">id</string>
+						<string key="next_button">id</string>
+						<string key="previous_button">id</string>
 						<string key="wallpaper_view">id</string>
 					</dictionary>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">

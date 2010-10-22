@@ -1,15 +1,17 @@
 class WallpaperNavigatorView < NSView
 
-  attr_writer :wallpaper_view
+  attr_writer :wallpaper_view, :previous_button, :next_button
   attr_accessor :delegate
 
-  def awakeFromNib 
+  def awakeFromNib  
     @wallpapers = []
-    @calls = -1
+    @wallpaper_index = -1
+    change_previous_button_status()
   end
 
   def wallpapers=(wallpapers)
     @wallpapers.concat(wallpapers)
+    navigate_next()
   end
 
   def mouseDown(sender)  
@@ -29,36 +31,59 @@ class WallpaperNavigatorView < NSView
     return point
   end
 
-  def display_next
-    unless received_wallpapers?
-      @current_wallpaper = Wallpaper.wallpaper_default 
+  def navigate_previous
+    decrement_wallpaper_index()
+    update_navigator()
+  end
+  
+  def decrement_wallpaper_index
+    unless is_first_wallpaper?
+      @wallpaper_index = @wallpaper_index - 1
     end
-
-    increment_calls()
-    @current_wallpaper = @wallpapers[@calls]
-    display_current_wallpaper()
   end
 
-  def increment_calls
-    if still_has_wallpapers_to_display?
-      @calls = @calls + 1            
-    else
-      puts "No more wallpapers to display."
-      @calls = 0
+  def navigate_next
+    increment_wallpaper_index()
+    update_navigator()
+  end
+  
+  def update_navigator
+    @current_wallpaper = @wallpapers[@wallpaper_index]
+    change_buttons_state()
+    display_current_wallpaper()
+  end
+  
+  def increment_wallpaper_index
+    unless is_last_wallpaper?
+      @wallpaper_index = @wallpaper_index + 1    
     end
+  end
+  
+  def change_buttons_state
+    change_next_button_status()
+    change_previous_button_status()
+  end
+  
+  def change_next_button_status
+    @next_button.setEnabled( !is_last_wallpaper? )
+    @next_button.display
+  end
+  
+  def is_last_wallpaper?
+    (@wallpaper_index + 1) == @wallpapers.size
+  end
+  
+  def change_previous_button_status
+    @previous_button.setEnabled( !is_first_wallpaper? )    
+    @previous_button.display
+  end
+  
+  def is_first_wallpaper?
+    @wallpaper_index <= 0
   end
 
   def display_current_wallpaper
-    puts "Current wallpaper index = #{@calls}"
     @wallpaper_view.display_wallpaper(@current_wallpaper)
-  end
-
-  def still_has_wallpapers_to_display?
-    @wallpapers.length > ( @calls + 1 )
-  end
-
-  def received_wallpapers?
-    ! @wallpapers.empty?
   end
 
 end

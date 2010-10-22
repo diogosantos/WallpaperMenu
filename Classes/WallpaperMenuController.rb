@@ -26,12 +26,12 @@ class WallpaperMenuController
     @status_item.setHighlightMode(true)
   end
   
-  def go_next(sender)
-    @navigator.display_next
+  def action_next(sender)
+    @navigator.navigate_next
   end 
   
-  def go_previous(sender)
-    "Go previous is not implemented yet."
+  def action_previous(sender)
+    @navigator.navigate_previous
   end 
   
   def clientDidSucceed(wallpapers)

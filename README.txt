@@ -9,8 +9,6 @@ Wallpaper Menu has non production code, it means that you should not use it by n
 
 TODO.
 -------------------
-# Disable the "Next button" when displaying the last wallpaper. Same for the "Previous button"
-# Implement the "Previous" button
 # When a thumbnail was clicked twice, WallpaperMenu should download it only once
 # Make the folder for downloaded wallpapers and the screen resolution configurable.
 # Give the user some feedback while downloading the wallpaper.
