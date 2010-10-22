@@ -16,8 +16,7 @@ TODO.
 # Give the user some feedback while downloading the wallpaper.
 # WallpaperNavigatorView needs to request more wallpapers to show.
 # WallpaperView needs to display a loading image when not display wallpapers and not that placeholder.
-# Call a designer to make the application looking great
-
+# Call a designer to make the application look great
 
 FOR DEVELOPERS.
 -------------------
