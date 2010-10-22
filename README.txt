@@ -1,7 +1,7 @@
-Wallpaper Menu.
+WallpaperMenu.
 -------------------
-Wallpaper Menu is a menubar app that allows you to navigate through InterfaceLIFT's beautiful pictures and set them up as your wallpaper.
-Wallpaper Menu is NOT an official InterfaceLIFT.com client for the Mac.
+WallpaperMenu is a Mac OS X menubar application that navigates through beautiful pictures on the web and set them up as your desktop image.
+WallpaperMenu is NOT an official client of a website or a service.
 
 DISCLAIMER.
 -------------------
