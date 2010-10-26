@@ -43,6 +43,7 @@ class Connection
     if response then
       @status_code = response.statusCode
       puts "Response: #{@status_code}"
+      puts "Response: #{@request_url.description}"
     end      
   	@buffer.setLength(0)
   end

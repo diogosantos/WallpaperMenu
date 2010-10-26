@@ -39,8 +39,8 @@ class WallpaperMenuController
     @navigator.wallpapers = wallpapers
   end
   
-  def wallpaper_clicked(wallpaper)    
-    path = "/Users/diogo/Pictures/#{NSDate.date().timeIntervalSinceReferenceDate()}.jpg"      	
+  def wallpaper_clicked(wallpaper)
+    path = "#{NSHomeDirectory()}/Pictures/#{NSDate.date().timeIntervalSinceReferenceDate()}.jpg"
   	Downloader.new(self).download(wallpaper.original_url, path)
   	@menu.cancelTracking
   end
