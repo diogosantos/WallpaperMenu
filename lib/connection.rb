@@ -14,7 +14,7 @@ class Connection
   def request()
     request = NSMutableURLRequest.requestWithURL(@request_url,											 
     														     cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData,
-    													   timeoutInterval:60.0)    
+    													   timeoutInterval:60.0)
     return decorate_request(request)
   end
   
